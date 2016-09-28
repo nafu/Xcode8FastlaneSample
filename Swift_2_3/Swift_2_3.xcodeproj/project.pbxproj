@@ -198,7 +198,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8L27T5V5VA;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					13D6DB181D9B918700CB379E = {
 						CreatedOnToolsVersion = 8.0;
@@ -425,6 +425,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fumiya-nakamura.Swift-2-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "98272964-809f-493f-8e35-8239a96e6f41";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.fumiya-nakamura.Swift-2-3";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -433,11 +435,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 8L27T5V5VA;
 				INFOPLIST_FILE = Swift_2_3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fumiya-nakamura.Swift-2-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7668a5ff-b67d-426c-8e7d-123074193bf9";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.fumiya-nakamura.Swift-2-3";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
