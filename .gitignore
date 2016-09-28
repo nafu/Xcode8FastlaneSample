@@ -42,6 +42,5 @@ Carthage/Checkouts
 !Carthage/Build
 
 # fastlane
-fastlane/report.xml
+report.xml
 Preview.html
-fastlane/crashlytics_release_note.txt
